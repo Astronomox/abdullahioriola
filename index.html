@@ -774,6 +774,50 @@ body.lb-lock{
   .exp-head{flex-direction:column;align-items:flex-start;gap:2px}
   .proj-head{flex-direction:column;align-items:flex-start;gap:2px}
 }
+
+/* ---- MOTION (added) ---- */
+/* project cards: 3D tilt that follows the pointer */
+@media (hover:hover) and (pointer:fine){
+  .h-card{
+    transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
+    transition:border-color .3s ease, transform .18s ease-out;
+    transform-style:preserve-3d;
+  }
+  .h-card:hover{
+    transform:perspective(900px) translateY(-8px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
+  }
+  .h-card.tilt-reset{transition:border-color .3s ease, transform .5s cubic-bezier(.16,1,.3,1)}
+}
+
+/* hero name: slow light sweep across the letters */
+.hero-name .intro{
+  background:linear-gradient(100deg, var(--text) 0%, var(--text) 42%, #7da3ff 50%, var(--text) 58%, var(--text) 100%);
+  background-size:260% 100%;
+  background-position:120% 0;
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent;
+  animation:fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) forwards 0.15s, nameSweep 7s ease-in-out infinite 1.6s;
+}
+@keyframes nameSweep{
+  0%,55%{background-position:120% 0}
+  100%{background-position:-60% 0}
+}
+
+/* section titles: underline that draws in on reveal */
+h2.sec-title{position:relative;display:inline-block}
+h2.sec-title::after{
+  content:"";
+  position:absolute;
+  left:0;bottom:-8px;
+  height:2px;width:100%;
+  background:linear-gradient(90deg,var(--text),transparent);
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform 1s cubic-bezier(.16,1,.3,1) .35s;
+}
+h2.sec-title.in::after{transform:scaleX(1)}
 </style>
 </head>
 <body>
@@ -1500,6 +1544,28 @@ body.lb-lock{
   closeBtn.addEventListener('click', close);
   overlay.addEventListener('click', function(e){
     if(e.target === overlay) close(); // backdrop only, not the image
+  });
+})();
+</script>
+
+<script>
+// Project card tilt (added)
+(function(){
+  if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  document.querySelectorAll('.h-card').forEach(function(card){
+    card.addEventListener('mousemove', function(e){
+      var r = card.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width - 0.5;
+      var py = (e.clientY - r.top) / r.height - 0.5;
+      card.classList.remove('tilt-reset');
+      card.style.setProperty('--ry', (px * 9).toFixed(2) + 'deg');
+      card.style.setProperty('--rx', (-py * 9).toFixed(2) + 'deg');
+    });
+    card.addEventListener('mouseleave', function(){
+      card.classList.add('tilt-reset');
+      card.style.setProperty('--rx', '0deg');
+      card.style.setProperty('--ry', '0deg');
+    });
   });
 })();
 </script>
