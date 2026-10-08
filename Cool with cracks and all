@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullahi Oriola | Full-Stack Developer in Lagos, Nigeria</title>
+<meta name="description" content="Full-stack developer in Lagos, Nigeria building AI, fintech and healthtech apps with Next.js, Python and FastAPI. Open to internships and freelance work.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Abdullahi Oriola">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abdullahioriola.vercel.app/">
+<meta property="og:title" content="Abdullahi Oriola | Full-Stack Developer in Lagos, Nigeria">
+<meta property="og:site_name" content="Abdullahi Oriola">
+<meta property="og:locale" content="en_NG">
+<meta property="og:description" content="Full-stack developer and Data Science student at UNILAG, Lagos. Self-taught, shipping production apps since 2023.">
+<meta property="og:image" content="https://abdullahioriola.vercel.app/og-image.png">
+<meta property="og:image:alt" content="Abdullahi Oriola, full-stack developer in Lagos, Nigeria">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abdullahi Oriola | Full-Stack Developer in Lagos, Nigeria">
+<meta name="twitter:description" content="Full-stack developer and Data Science student at UNILAG, Lagos. Self-taught, shipping production apps since 2023.">
+<meta name="twitter:image" content="https://abdullahioriola.vercel.app/og-image.png">
+<meta name="twitter:creator" content="@Astro2theworld">
+<link rel="canonical" href="https://abdullahioriola.vercel.app/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Oriola Abdullahi Adeola",
+  "alternateName": ["Abdullahi Oriola", "Oriola Abdullahi"],
+  "url": "https://abdullahioriola.vercel.app/",
+  "image": "https://abdullahioriola.vercel.app/headshot.png",
+  "jobTitle": "Full-Stack Software Engineer",
+  "description": "Full-stack developer and Data Science student at the University of Lagos, building AI, fintech, healthtech and edtech products.",
+  "worksFor": [
+    { "@type": "Organization", "name": "Touch and Pay Technologies Ltd" },
+    { "@type": "Organization", "name": "FlyRank AI" },
+    { "@type": "Organization", "name": "YAYO Digital" },
+    { "@type": "Organization", "name": "Bumis Rev Tech Global Concept (BRTGC)" },
+    { "@type": "Organization", "name": "Teenovatex Labs" }
+  ],
+  "knowsAbout": ["Full-stack web development", "Next.js", "React", "TypeScript", "Python", "FastAPI", "Artificial intelligence", "Fintech", "Data science"],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Lagos" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Lagos", "addressCountry": "NG" },
+  "sameAs": [
+    "https://github.com/Astronomox",
+    "https://www.linkedin.com/in/abdullahioriola-63459b2a7",
+    "https://twitter.com/Astro2theworld",
+    "https://astronomox.github.io/abdullahioriola/"
+  ]
+}
+</script>
+<script>document.documentElement.classList.add('js');</script>
+<script>(function(){console.log(`
+                                    ∞∞∞≈÷×÷=∞
+                               √√≈≈√ π≈                            √÷==≈π
+                            ππππ   π                                  ≈√ ==∞π
+                          ππ   π                                        ≈π ππππ
+                       πππππ                                                ππππ
+                     √∞ππ       πππ√√  ππ√                                π     ππ
+                    √∞ππ            π×÷-∞√                     ∞≈√π         π πππ πππ
+                   √√π           ππ π                             √∞≠÷∞πππ      ππππ√π
+                  π√π      πππ                                       ∞ππππ     π ππππ√π
+                 πππ√√π   πππππ                                         πππ  ππππππππππ
+                πππππππππππππ√                 π πππ     ππππ π          ππππππππ  πππππ
+              ππ≈≈√√πππππππ≈       √ππ√∞√√√π∞√ππππππππ√π√πππππ√∞√∞∞ππ      √πππππ  ≈≠π ππ
+              π∞≈≈∞ππππππ≈    π√≈√√√√∞≈∞∞√π√∞∞√ππππππ√π√ππππ√√∞≈∞∞∞∞∞≈π√    π∞πππ∞∞πππ√∞π
+              π≠≈√πππ√πππ   π∞√π≈≠≠≈∞≈≈∞∞∞≈≈∞√√π√πππ√√π√√√√√√∞∞√√√√∞√√ππ≈≈π  π≈√∞ππππππ√π√
+               ≈≈≈πππππ ≈ππππ≈≠≈≈≈∞∞∞∞∞∞√√√√√√√√√√√π√√√√ππ√√√∞√√∞∞∞√√∞≈∞∞π∞√   ≈ππ√πππ√≈∞ππ
+               √∞∞√ππππ  √∞≠∞∞√√√√∞∞∞∞∞∞∞∞√∞√√√√√πππ√√√∞√ππ√∞√∞∞√∞∞∞∞√√√√∞∞√π√ ∞√π≈∞√π√∞∞√
+                √πππππππ√√ππ∞∞π√∞≈√√√∞√√√∞√√∞√√√π∞√√√√√√√∞√√√√√∞√≈√√∞∞√√√π∞√√∞≈∞ ππ√√√≠≠√π
+                 ππ   ππππ√≈∞√√∞≈∞∞∞∞∞∞√√π√√√√√∞√∞√ππ√√∞√∞∞√∞π√√√π√√√ ∞≈π√∞√∞√∞ ππππ√∞√√π
+                    πππππππ∞≈√√∞√∞≈≈≠≈∞√√∞≈∞√≈∞≈∞∞∞√√∞≈√∞≈≈≈√≈≈≈∞∞≈≈≈∞∞√π√∞ππππ ππππππππ
+                     √π πππ√≈∞∞≠≠≈≠=≈∞≈∞∞∞≈≈≈≈≈∞≈√≈∞∞∞≈∞∞≈≈≈∞∞≈≈∞√∞∞√∞∞≈≈∞≈ππππ ππ  ππ
+          ππππ≈π∞√      πππ∞∞∞∞≈≠≈∞≈∞∞≈∞∞√π√√≈√∞∞ππ∞√√∞∞∞∞πππ√≈≈≈√√∞∞√≈≈∞√∞√ππ
+     ≈√π ≠≠∞ππππππ∞√√=π√πππππ√∞∞∞∞√∞∞√≈√√√√π∞π∞π√√∞≈≈≈≈∞√πππ√ππ∞∞∞√√√≈∞√∞πππ
+   πππ           √≈≠≠≠√≈π≈≠πππππ√∞√√π√π√√√πππ∞π√√ππ∞ππ√∞πππππππππππ√∞√πππ        ππ√ππ√π√√ππ
+              √√√∞≈√∞∞≈≠π√≈×=∞  ππππππ√√πππππππ√√πππππ√∞√∞πππππππππ       π√≈√∞√π ππππππππππ  πππ
+         ππ√√√π √∞∞≈≈∞ππ π πππ∞≠×     ππππππππππ√ππππππππππ  πππ     ∞÷≠π√πππ√√√≈∞             π√
+         π ππ          π≈√≠√ππ∞≠≈√∞π           πππ    π          π≈÷≠√≠=≠π  π  ππ∞∞π π         π
+           ππ≈    π√π=≠≈π  π      ππππ≠       ππππ   πππ         ≈√=πππππππ∞∞√π    ππ √√∞
+             ππ≠≈π π                  πππ   π  π   π   ππ    √×÷√ππππππ  π  ππ≈π     πππ ππ
+             ∞πππππ                    ππ  π      πππ       √πππ               ππππ      π√
+               πππ                              π ππππ      π                 ππππππ     π
+                ππ∞π                                                             π π     π
+                    π                                                             √π     √
+
+  Built in Lagos, Nigeria.
+  abdullahioriola02@gmail.com
+`);})();</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#fafaf8;
+  --bg-raised:#f2f2ee;
+  --text:#191917;
+  --text-dim:#6b6b66;
+  --text-faint:#9c9c96;
+  --border:#e3e3dd;
+  --link:#191917;
+  --accent:#3b6ef0;
+  --max:660px;
+}
+[data-theme="dark"]{
+  --bg:#000000;
+  --bg-raised:#0a0a0a;
+  --text:#ededeb;
+  --text-dim:#9a9a94;
+  --text-faint:#6e6e68;
+  --border:#232322;
+  --link:#ededeb;
+  --accent:#7da3ff;
+}
+
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+html,body{transition:background-color 0.2s ease,color 0.2s ease}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  font-size:16px;
+  line-height:1.6;
+  overflow-x:clip;
+}
+
+a{color:var(--link)}
+
+.wrap{
+  max-width:var(--max);
+  margin:0 auto;
+  padding:0 24px;
+}
+
+/* NAV */
+.nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  padding:14px 0;
+  background:rgba(250,250,248,0.82);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  transform:translateY(0);
+  transition:transform 0.35s cubic-bezier(.16,1,.3,1);
+}
+.nav.nav-hidden{transform:translateY(-100%)}
+[data-theme="dark"] .nav{
+  background:rgba(0,0,0,0.72);
+}
+.nav-inner{
+  max-width:var(--max);
+  margin:0 auto;
+  padding:0 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.nav-name{
+  font-weight:700;
+  font-size:16px;
+  letter-spacing:-0.01em;
+  text-decoration:none;
+  color:var(--text);
+}
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+.nav-links a{
+  font-size:14px;
+  color:var(--text-dim);
+  text-decoration:none;
+  transition:color 0.15s ease;
+}
+.nav-links a:hover{color:var(--text)}
+.nav-icon-link{display:flex;align-items:center;gap:6px}
+.nav-icon-link svg{width:14px;height:14px}
+
+/* SECTIONS */
+section{padding:64px 0}
+section#hero{padding:0}
+
+/* HERO — full-bleed, breaks out of the 660px column */
+.hero-scroll{
+  position:relative;
+  height:230vh;           /* scroll runway for the name->center motion */
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.hero-sticky{
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow:hidden;
+}
+.hero-stage{
+  position:relative;
+  height:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 48px;
+  display:flex;
+  align-items:center;
+}
+
+.hero-name{
+  position:relative;
+  z-index:2;
+  font-size:clamp(38px,5.2vw,74px);
+  font-weight:800;
+  letter-spacing:-0.03em;
+  line-height:1.05;
+  color:var(--text);
+  white-space:nowrap;
+  transform-origin:left center;
+  will-change:transform;
+}
+.hero-name .intro{
+  display:inline-block;
+  opacity:0;
+  transform:translateY(20px);
+  animation:fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) forwards 0.15s;
+}
+
+.hero-meta{
+  position:absolute;
+  left:48px;
+  bottom:calc(50% - 130px);
+  z-index:2;
+  will-change:opacity;
+}
+.hero-sub{
+  font-size:16px;
+  color:var(--text-dim);
+  opacity:0;
+  animation:fadeUp 0.7s ease forwards 0.6s;
+}
+.avail{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  font-size:13px;
+  color:var(--text-dim);
+  margin-top:14px;
+  opacity:0;
+  animation:fadeUp 0.7s ease forwards 0.75s;
+}
+.avail-dot{width:6px;height:6px;border-radius:50%;background:#3fb950;flex-shrink:0}
+
+.hero-cube{
+  position:absolute;
+  right:24px;
+  top:50%;
+  transform:translateY(-50%);
+  width:min(500px,46vw);
+  height:min(500px,46vw);
+  aspect-ratio:1/1;
+  z-index:1;
+  opacity:0;
+  animation:fadeIn 1s ease forwards 0.2s;
+  will-change:opacity;
+  background:#000;
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero-cube video{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.hero-cube-shot{display:none}
+.about-cube{display:none}
+[data-theme="dark"] .hero-cube{border-color:transparent}
+.hero-cube-shot,
+.headshot{cursor:pointer}
+
+/* ABOUT (after hero) */
+#mobile-hero{
+  display:none;
+  padding:104px 0 8px;
+}
+#about{padding-top:48px}
+.about-top{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  margin-bottom:36px;
+}
+.headshot{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  flex-shrink:0;
+  filter:none;
+  background:var(--bg-raised);
+}
+.h1{
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:-0.02em;
+  line-height:1.15;
+  margin-bottom:8px;
+}
+.role-line{
+  font-size:16px;
+  color:var(--text-dim);
+}
+
+@keyframes slideUp{
+  to{transform:translateY(0);opacity:1}
+}
+@keyframes fadeUp{
+  to{transform:translateY(0);opacity:1}
+}
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+@media(max-width:760px){
+  /* HERO ZOOM now ON for mobile */
+  #mobile-hero{display:none}
+  #about > .about-top{display:flex}     /* headshot returns to about */
+  .hero-scroll{height:175vh}
+  .hero-sticky{height:100svh}
+  .hero-stage{padding:0 22px}
+  .hero-name{font-size:27px}            /* smaller base so the zoom has room to grow */
+  /* SWAP: hero visual is now the headshot circle (was the cube) */
+  .hero-cube{
+    width:min(220px,60vw);
+    height:min(220px,60vw);
+    right:auto;
+    left:50%;
+    top:26%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    background:transparent;
+    border:none;
+  }
+  .hero-cube video{display:none}
+  .hero-cube-shot{display:block;width:100%;height:100%;object-fit:cover;filter:none}
+  .hero-meta{left:22px;bottom:12%}
+  .hero-sub{font-size:13.5px}
+  .avail{justify-content:flex-start;font-size:12px}
+  /* SWAP: about-section visual is now the cube (was the headshot) */
+  #about .headshot{display:none}
+  .about-cube{
+    display:block;
+    width:72px;height:72px;
+    border-radius:14px;
+    overflow:hidden;
+    background:#000;
+    flex-shrink:0;
+  }
+  .about-cube video{width:100%;height:100%;object-fit:cover;display:block}
+}
+
+.prose p{
+  font-size:16px;
+  color:var(--text-dim);
+  line-height:1.75;
+  margin-bottom:18px;
+}
+.prose p:last-child{margin-bottom:0}
+.prose a{
+  color:var(--text);
+  text-decoration:underline;
+  text-decoration-color:var(--border);
+  text-underline-offset:2px;
+  transition:text-decoration-color 0.15s ease;
+}
+.prose a:hover{text-decoration-color:var(--text)}
+.prose strong{color:var(--text);font-weight:600}
+
+/* EXPERIENCE */
+.exp-item{margin-bottom:34px}
+.exp-item:last-child{margin-bottom:0}
+.exp-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:16px;
+  margin-bottom:6px;
+  flex-wrap:wrap;
+}
+.exp-role{font-size:16px;font-weight:600;color:var(--text)}
+.exp-time{font-size:13px;color:var(--text-faint);white-space:nowrap}
+.exp-co{font-size:14px;color:var(--text-dim);margin-bottom:10px}
+.exp-desc{font-size:15px;color:var(--text-dim);line-height:1.7}
+.exp-desc ul{margin-top:8px;padding-left:18px}
+.exp-desc li{margin-bottom:5px}
+
+/* PROJECTS */
+.proj-item{
+  display:block;
+  padding:18px 0;
+  border-bottom:1px solid var(--border);
+  text-decoration:none;
+  color:inherit;
+}
+.proj-item:first-of-type{border-top:1px solid var(--border)}
+.proj-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:14px;
+  margin-bottom:5px;
+}
+.proj-name{
+  font-size:16px;
+  font-weight:600;
+  color:var(--text);
+}
+.proj-item:hover .proj-name{text-decoration:underline;text-decoration-color:var(--text-faint)}
+.proj-tag{
+  font-size:12px;
+  color:var(--text-faint);
+  white-space:nowrap;
+  flex-shrink:0;
+}
+.proj-desc{font-size:14.5px;color:var(--text-dim);line-height:1.6;max-width:560px}
+.proj-stack{font-size:12.5px;color:var(--text-faint);margin-top:6px}
+
+/* HORIZONTAL PROJECT GALLERY */
+.h-projects-outer{
+  position:relative;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.h-projects-sticky{
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+}
+.h-projects-track{
+  display:flex;
+  gap:28px;
+  padding:0 max(24px,calc(50vw - 330px));
+  will-change:transform;
+}
+.h-card{
+  flex:0 0 auto;
+  width:min(440px,78vw);
+  padding:36px 32px;
+  border:1px solid var(--border);
+  border-radius:20px;
+  background:var(--bg-raised);
+  text-decoration:none;
+  color:inherit;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  transition:border-color .3s ease, transform .35s cubic-bezier(.16,1,.3,1);
+}
+.h-card:hover{border-color:var(--text-dim);transform:translateY(-8px)}
+.h-card-index{font-size:12.5px;color:var(--text-faint);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.h-card-tag{font-size:12px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.05em}
+.h-card-name{font-size:23px;font-weight:700;letter-spacing:-0.01em;display:flex;align-items:center}
+.h-card-name::after{
+  content:"\2192";
+  display:inline-block;
+  margin-left:9px;
+  opacity:0;
+  transform:translateX(-6px);
+  transition:opacity .3s ease, transform .3s cubic-bezier(.16,1,.3,1);
+  color:var(--text-faint);
+}
+.h-card:hover .h-card-name::after{opacity:1;transform:translateX(0)}
+.h-card-desc{font-size:14.5px;color:var(--text-dim);line-height:1.65;flex:1}
+.h-card-stack{font-size:12.5px;color:var(--text-faint)}
+.h-progress-wrap{
+  position:absolute;
+  left:50%;
+  bottom:36px;
+  transform:translateX(-50%);
+  display:flex;
+  gap:6px;
+  z-index:3;
+}
+.h-progress-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--border);
+  transition:background .25s ease, width .25s ease, border-radius .25s ease;
+}
+.h-progress-dot.active{background:var(--text);width:20px;border-radius:3px}
+
+.m-projects-list{display:none}
+
+@media(max-width:760px){
+  .h-projects-outer{display:block}    /* horizontal gallery now ON for mobile */
+  .m-projects-list{display:none}
+  .h-sticky, .h-projects-sticky{height:100svh}
+  .h-card{width:82vw;padding:24px 22px;border-radius:16px}
+  .h-card-name{font-size:20px}
+  .h-card-desc{font-size:14px}
+}
+
+/* MORE PROJECTS */
+.more-projects{margin-top:28px}
+.more-projects-label{font-size:13px;color:var(--text-faint);margin-bottom:12px}
+.more-row{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:14px;
+  padding:10px 0;
+  border-bottom:1px solid var(--border);
+  font-size:14.5px;
+}
+.more-row:first-child{border-top:1px solid var(--border)}
+.more-row a{text-decoration:none;border-bottom:1px solid var(--border);color:var(--text);font-weight:500}
+.more-row a:hover{border-bottom-color:var(--text)}
+.more-row .more-name-plain{color:var(--text);font-weight:500}
+.more-row .more-stack{color:var(--text-faint);font-size:12.5px;white-space:nowrap}
+
+/* CLIENT WORK */
+.client-item{margin-bottom:16px}
+.client-item:last-child{margin-bottom:0}
+.client-name{font-size:15px;font-weight:600}
+.client-name a{text-decoration:none;border-bottom:1px solid var(--border)}
+.client-name a:hover{border-bottom-color:var(--text)}
+.client-desc{font-size:14.5px;color:var(--text-dim);margin-top:3px}
+
+/* SKILLS */
+.skills-block{margin-bottom:26px}
+.skills-block:last-child{margin-bottom:0}
+.skills-label{font-size:13px;color:var(--text-faint);margin-bottom:10px}
+.skills-line{font-size:15px;color:var(--text-dim);line-height:1.8}
+.skills-line strong{color:var(--text);font-weight:500}
+
+/* EDUCATION */
+.edu-item{margin-bottom:26px}
+.edu-item:last-child{margin-bottom:0}
+.edu-deg{font-size:16px;font-weight:600}
+.edu-meta{font-size:13.5px;color:var(--text-faint);margin-top:2px;margin-bottom:8px}
+.edu-desc{font-size:14.5px;color:var(--text-dim);line-height:1.65}
+
+/* CONTACT */
+.contact-list{margin-top:4px}
+.clink{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:13px 0;
+  border-bottom:1px solid var(--border);
+  text-decoration:none;
+  color:inherit;
+  transition:padding-left 0.15s ease;
+}
+.clink:first-child{border-top:1px solid var(--border)}
+.clink:hover{padding-left:4px}
+.clink-k{font-size:14px;color:var(--text-faint)}
+.clink-v{font-size:14px;color:var(--text);display:flex;align-items:center;gap:6px}
+.clink:hover .clink-v{text-decoration:underline}
+
+/* FOOTER */
+.foot{
+  padding:40px 0 56px;
+  font-size:13px;
+  color:var(--text-faint);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* SECTION TITLE */
+h2.sec-title{
+  font-size:22px;
+  font-weight:700;
+  letter-spacing:-0.01em;
+  margin-bottom:24px;
+}
+
+/* ---- LIVE MOTION ---- */
+.js .reveal{
+  opacity:0;
+  transform:translateY(48px);
+  transition:opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1);
+}
+.js .reveal.in{opacity:1;transform:none}
+
+/* section titles enter with a stronger sweep */
+.js h2.sec-title.reveal{transform:translateY(48px) translateX(-14px)}
+.js h2.sec-title.reveal.in{transform:none}
+
+/* project rows: responsive hover */
+.proj-item{transition:border-color .3s ease, padding-left .3s cubic-bezier(.16,1,.3,1)}
+.proj-name{transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.proj-name::after{
+  content:"\2192";
+  display:inline-block;
+  margin-left:10px;
+  opacity:0;
+  transform:translateX(-8px);
+  transition:opacity .3s ease, transform .3s cubic-bezier(.16,1,.3,1);
+  color:var(--text-faint);
+}
+.proj-item:hover{padding-left:14px;border-color:var(--text-dim)}
+.proj-item:hover .proj-name{transform:translateX(2px)}
+.proj-item:hover .proj-name::after{opacity:1;transform:translateX(0)}
+.proj-item:hover .proj-desc{color:var(--text)}
+.proj-tag{transition:color .3s ease}
+.proj-item:hover .proj-tag{color:var(--text-dim)}
+
+/* more rows, client, skills, exp, edu: tactile shift on hover */
+.more-row{transition:padding-left .28s cubic-bezier(.16,1,.3,1)}
+.more-row:hover{padding-left:8px}
+.client-item,.skills-block,.exp-item,.edu-item{transition:transform .28s cubic-bezier(.16,1,.3,1)}
+.client-item:hover,.skills-block:hover{transform:translateX(6px)}
+.exp-item:hover,.edu-item:hover{transform:translateX(4px)}
+
+/* availability: a living status ping (object, not background) */
+.avail-dot{position:relative}
+.avail-dot::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  box-shadow:0 0 0 0 rgba(63,185,80,0.6);
+  animation:availPing 2.4s cubic-bezier(.16,1,.3,1) infinite;
+}
+@keyframes availPing{
+  0%{box-shadow:0 0 0 0 rgba(63,185,80,0.55)}
+  70%{box-shadow:0 0 0 10px rgba(63,185,80,0)}
+  100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}
+}
+
+@media(prefers-reduced-motion: reduce){
+  .js .reveal{opacity:1 !important;transform:none !important;transition:none !important}
+  .avail-dot::after{animation:none}
+}
+
+/* scroll progress bar */
+.scroll-progress{
+  position:fixed;
+  top:0;left:0;
+  height:2px;
+  width:0%;
+  background:var(--text);
+  z-index:200;
+  will-change:width;
+}
+
+/* HEADSHOT LIGHTBOX */
+html.lb-lock, body.lb-lock{
+  overflow:hidden;
+}
+body.lb-lock{
+  position:fixed;
+  left:0;right:0;
+  width:100%;
+}
+.lightbox{
+  position:fixed;
+  inset:0;
+  z-index:1000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(0,0,0,0.92);
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .25s ease;
+  padding:40px;
+}
+.lightbox.open{
+  opacity:1;
+  visibility:visible;
+}
+.lightbox-img{
+  max-width:90vw;
+  max-height:90vh;
+  width:auto;
+  height:auto;
+  border-radius:12px;
+  object-fit:contain;
+  background:var(--bg-raised);
+  transform:scale(0.96);
+  transition:transform .25s ease;
+}
+.lightbox.open .lightbox-img{
+  transform:scale(1);
+}
+.lightbox-close{
+  position:fixed;
+  top:22px;
+  right:24px;
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,0.2);
+  background:rgba(255,255,255,0.08);
+  color:#fff;
+  font-size:22px;
+  line-height:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition:background .2s ease;
+}
+.lightbox-close:hover{background:rgba(255,255,255,0.18)}
+.lightbox-close:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+@media(prefers-reduced-motion: reduce){
+  .lightbox, .lightbox-img{transition:none}
+}
+@media(max-width:760px){
+  .lightbox{padding:20px}
+  .lightbox-close{top:16px;right:16px;width:40px;height:40px;font-size:20px}
+}
+
+/* RESPONSIVE */
+@media(max-width:760px){
+  /* COMPACT DENSITY — fit more per glance, no content removed */
+  section{padding:38px 0}
+  .wrap{padding:0 20px}
+  h2.sec-title{font-size:18px;margin-bottom:16px}
+  .prose p{font-size:14px;line-height:1.6;margin-bottom:13px}
+  .role-line{font-size:14px}
+  .about-top{gap:16px;margin-bottom:24px}
+  .headshot{width:70px;height:70px}
+
+  .exp-item{margin-bottom:22px}
+  .exp-role{font-size:14.5px}
+  .exp-co{font-size:13px;margin-bottom:7px}
+  .exp-desc{font-size:13.5px;line-height:1.55}
+  .exp-desc ul{padding-left:16px}
+  .exp-desc li{margin-bottom:4px}
+  .exp-time{font-size:12px}
+
+  .more-projects{margin-top:20px}
+  .more-row{padding:8px 0;font-size:13.5px}
+  .more-row .more-stack{font-size:11.5px}
+
+  .client-item{margin-bottom:12px}
+  .client-name{font-size:14.5px}
+  .client-desc{font-size:13.5px}
+
+  .skills-block{margin-bottom:18px}
+  .skills-label{font-size:12px;margin-bottom:7px}
+  .skills-line{font-size:14px;line-height:1.6}
+
+  .edu-item{margin-bottom:18px}
+  .edu-deg{font-size:15px}
+  .edu-meta{font-size:12.5px}
+  .edu-desc{font-size:13.5px;line-height:1.55}
+
+  .clink{padding:11px 0}
+  .clink-k,.clink-v{font-size:13px}
+}
+
+@media(max-width:600px){
+  .nav-links{gap:14px}
+  .exp-head{flex-direction:column;align-items:flex-start;gap:2px}
+  .proj-head{flex-direction:column;align-items:flex-start;gap:2px}
+}
+
+/* ---- MOTION (added) ---- */
+/* ground cracks follow the cursor (canvas sits behind the content) */
+.wrap{position:relative;z-index:1}
+.crack-canvas{
+  position:fixed;
+  inset:0;
+  width:100%;height:100%;
+  z-index:0;
+  pointer-events:none;
+  background:transparent;
+}
+
+/* project cards: 3D tilt that follows the pointer */
+@media (hover:hover) and (pointer:fine){
+  .h-card{
+    transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
+    transition:border-color .3s ease, transform .18s ease-out;
+    transform-style:preserve-3d;
+  }
+  .h-card:hover{
+    transform:perspective(900px) translateY(-8px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
+  }
+  .h-card.tilt-reset{transition:border-color .3s ease, transform .5s cubic-bezier(.16,1,.3,1)}
+}
+
+/* tap hint on the first page */
+.tap-hint{
+  position:absolute;
+  left:50%;
+  bottom:7vh;
+  transform:translateX(-50%);
+  z-index:3;
+  font-size:13px;
+  letter-spacing:.04em;
+  color:var(--text-faint);
+  pointer-events:none;
+  opacity:0;
+  animation:hintIn 1s ease forwards 1.6s, hintPulse 2.6s ease-in-out infinite 2.6s;
+  transition:opacity .4s ease;
+}
+.tap-hint.gone{animation:none;opacity:0 !important}
+@keyframes hintIn{to{opacity:1}}
+@keyframes hintPulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media (hover:none), (pointer:coarse){
+  .tap-hint{display:none}
+}
+
+/* hero name: slow light sweep across the letters */
+.hero-name .intro{
+  background:linear-gradient(100deg, var(--text) 0%, var(--text) 42%, #7da3ff 50%, var(--text) 58%, var(--text) 100%);
+  background-size:260% 100%;
+  background-position:120% 0;
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent;
+  animation:fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) forwards 0.15s, nameSweep 7s ease-in-out infinite 1.6s;
+}
+@keyframes nameSweep{
+  0%,55%{background-position:120% 0}
+  100%{background-position:-60% 0}
+}
+
+/* section titles: underline that draws in on reveal */
+h2.sec-title{position:relative;display:inline-block}
+h2.sec-title::after{
+  content:"";
+  position:absolute;
+  left:0;bottom:-8px;
+  height:2px;width:100%;
+  background:linear-gradient(90deg,var(--text),transparent);
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform 1s cubic-bezier(.16,1,.3,1) .35s;
+}
+h2.sec-title.in::after{transform:scaleX(1)}
+</style>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<canvas class="crack-canvas" id="crackCanvas" aria-hidden="true"></canvas>
+
+<div class="wrap">
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+    <a href="javascript:void(0)" class="nav-name" id="navHome">Abdullahi Oriola</a>
+    <div class="nav-links">
+      <a href="javascript:void(0)" id="navAbout">About</a>
+      <a href="https://github.com/Astronomox" target="_blank" rel="noopener" class="nav-icon-link">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero-scroll" id="heroScroll">
+    <div class="hero-sticky">
+      <div class="hero-stage">
+        <h1 class="hero-name" id="heroName"><span class="intro">Abdullahi Oriola</span></h1>
+        <div class="hero-cube" id="heroCube">
+          <video src="cube.mp4" autoplay loop muted playsinline preload="auto"></video>
+          <img src="headshot.png" alt="Portrait of Abdullahi Oriola, full-stack developer in Lagos, Nigeria" class="hero-cube-shot">
+        </div>
+        <div class="hero-meta" id="heroMeta">
+          <div class="hero-sub">Full-stack developer &middot; Data Science student &middot; Lagos, Nigeria</div>
+          <div class="avail"><span class="avail-dot"></span> Available for internships, remote and freelance work</div>
+        </div>
+      </div>
+      <div class="tap-hint" id="tapHint" aria-hidden="true">Tap the screen</div>
+    </div>
+  </div>
+
+  <!-- MOBILE HERO (plain, shown only on mobile) -->
+  <section id="mobile-hero">
+    <div class="about-top">
+      <img src="headshot.png" alt="Portrait of Abdullahi Oriola, full-stack developer in Lagos, Nigeria" class="headshot">
+      <div>
+        <h1 class="h1">Abdullahi Oriola</h1>
+        <div class="role-line">Full-stack developer &middot; Data Science student &middot; Lagos, Nigeria</div>
+        <div class="avail"><span class="avail-dot"></span> Available for internships, remote and freelance work</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-top">
+      <img src="headshot.png" alt="Portrait of Abdullahi Oriola, full-stack developer in Lagos, Nigeria" class="headshot" id="headshotEl">
+      <div class="about-cube"><video src="cube.mp4" autoplay loop muted playsinline preload="auto"></video></div>
+      <div>
+        <div class="role-line">Full-stack developer &middot; Data Science student &middot; Lagos, Nigeria</div>
+      </div>
+    </div>
+
+    <div class="prose">
+      <p>Self-taught since July 2023. In three years I went from writing my first Python script to building and shipping over a dozen production web applications across healthtech, fintech, HR-tech, and edtech. Most of them are live and used by real people.</p>
+      <p>I work across the full stack: database design, API architecture, and frontend. I pick up what the project needs and ship it. Hackathons, client work, owned products, the method is the same.</p>
+      <p>Currently a <strong>Data Science student at the University of Lagos</strong>, interning at TAP Technologies, FlyRank AI, YAYO Digital and BRTGC, working as a community builder at Teenovatex Labs, and running my own freelance practice.</p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2 class="sec-title">Experience</h2>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Software Engineering Intern</div>
+        <div class="exp-time">Aug 2026 – Present</div>
+      </div>
+      <div class="exp-co">Touch and Pay Technologies Ltd (TAP, YC W22) &middot; Lagos, Nigeria</div>
+      <div class="exp-desc">
+        Building and shipping features for a KPI performance management platform across the web app, dashboard and API.
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Front-end AI Engineering Intern</div>
+        <div class="exp-time">Jul 2026 – Present</div>
+      </div>
+      <div class="exp-co">FlyRank AI &middot; Lagos, Nigeria</div>
+      <div class="exp-desc">
+        Building front-end interfaces for AI-powered product features.
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Full-Stack Developer Intern</div>
+        <div class="exp-time">2026 – Present</div>
+      </div>
+      <div class="exp-co">YAYO Digital</div>
+      <div class="exp-desc">
+        Building and shipping web features for the team.
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Remote Full-Stack Developer Intern</div>
+        <div class="exp-time">Jun 2026 – Present</div>
+      </div>
+      <div class="exp-co">Bumis Rev Tech Global Concept (BRTGC) &middot; Remote</div>
+      <div class="exp-desc">
+        Contributing to AuraEstate, a multi-tenant real estate SaaS delivering white-label catalog websites to multiple agencies from a single codebase.
+        <ul>
+          <li>Sole frontend engineer on the public-facing surface: built marketing pages, tenant search, blog, and listing pages from scratch</li>
+          <li>Implemented subdomain and custom-domain tenant resolution via Next.js 16 proxy middleware, enabling one codebase to serve multiple agency brands</li>
+          <li>Built full authentication flow with NextAuth v5, MongoDB adapter, and Zod schema validation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Full-Stack Developer</div>
+        <div class="exp-time">Jan 2026 – Present</div>
+      </div>
+      <div class="exp-co">Teenovatex Labs &middot; Remote</div>
+      <div class="exp-desc">
+        Builder at TeenovateX Labs, an innovation hub running coding and AI programmes for teenagers across Africa.
+        <ul>
+          <li>Built and shipped features for Lexy, an in-platform AI coding companion powered by Genkit and Google Generative AI</li>
+          <li>Implemented real-time stats and dynamic navigation across the MAD Dashboard; stack: Next.js, Firebase, Framer Motion, Three.js</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Head of Technology</div>
+        <div class="exp-time">2024 – 2026</div>
+      </div>
+      <div class="exp-co">Ventics AI &middot; Lagos, Nigeria (Remote)</div>
+      <div class="exp-desc">
+        Head of Technology at an AI-powered interior design platform serving homeowners, interior designers, and real estate professionals across Nigeria. Owned all technical decisions and frontend development from the first line of code to deployment.
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-head">
+        <div class="exp-role">Full-Stack Developer (Freelance)</div>
+        <div class="exp-time">Jul 2023 – Present</div>
+      </div>
+      <div class="exp-co">Independent</div>
+      <div class="exp-desc">
+        Independent practice spanning healthtech, fintech, HR-tech, and edtech. Selected work:
+        <ul>
+          <li>Delivering end-to-end client sites currently live and in active use</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (horizontal pinned gallery) -->
+  <section id="projects" style="padding-bottom:0">
+    <h2 class="sec-title">Selected projects</h2>
+  </section>
+
+  <div class="h-projects-outer" id="hProjectsOuter">
+    <div class="h-projects-sticky" id="hProjectsSticky">
+      <div class="h-projects-track" id="hProjectsTrack">
+
+        <a href="https://pyupcheck.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">01 / 08</div>
+          <div class="h-card-tag">Dev tools</div>
+          <div class="h-card-name">pyupcheck</div>
+          <div class="h-card-desc">CLI that tells you if upgrading a Python dependency will break your code, before you upgrade it. Scans your codebase for real usages, diffs changelogs between versions, and flags breaking or deprecated APIs, with CI-ready exit codes. Published on PyPI.</div>
+          <div class="h-card-stack">Python &middot; Click &middot; Rich &middot; PyPI</div>
+        </a>
+
+        <a href="https://dermaflow-zeta.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">02 / 08</div>
+          <div class="h-card-tag">Healthtech</div>
+          <div class="h-card-name">Dermaflow AI</div>
+          <div class="h-card-desc">AI skin health diagnostic platform with heatmap explainability, a Bio-LLM chatbot, and an oncology triage system. Built solo to address the cost barrier of dermatologist visits in Nigeria.</div>
+          <div class="h-card-stack">Next.js &middot; Gemini AI &middot; Python</div>
+        </a>
+
+        <a href="https://echo-journal-app.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">03 / 08</div>
+          <div class="h-card-tag">AI Journal</div>
+          <div class="h-card-name">EchoJournal</div>
+          <div class="h-card-desc">AI journaling app with voice transcription, Echo Mode pattern recognition across past entries, and mood sentiment tracking with visualisations.</div>
+          <div class="h-card-stack">Next.js &middot; Firebase &middot; Gemini AI</div>
+        </a>
+
+        <a href="https://bizpadi.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">04 / 08</div>
+          <div class="h-card-tag">AI / Fintech</div>
+          <div class="h-card-name">BizPadi (Planning)</div>
+          <div class="h-card-desc">AI business companion that matches Nigerian SMEs to grants, loans, and support programmes (TEF, BOI, SMEDAN) entirely over WhatsApp.</div>
+          <div class="h-card-stack">Next.js &middot; WhatsApp API &middot; Gemini AI</div>
+        </a>
+
+        <a href="https://verifyai-hr.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">05 / 08</div>
+          <div class="h-card-tag">HR-tech</div>
+          <div class="h-card-name">VerifyAI</div>
+          <div class="h-card-desc">Payroll integrity platform that detects ghost workers before disbursement using Isolation Forest anomaly detection, with Squad API escrow. Built for SquadHacks 3.0.</div>
+          <div class="h-card-stack">Python &middot; Isolation Forest ML &middot; Squad API</div>
+        </a>
+
+        <a href="https://tenda-delta.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">06 / 08</div>
+          <div class="h-card-tag">SME tools</div>
+          <div class="h-card-name">Tenda</div>
+          <div class="h-card-desc">Customer retention platform for Nigerian merchants: tracks sales and lapsed customers, auto-generates WhatsApp follow-up prompts, and surfaces revenue trends.</div>
+          <div class="h-card-stack">Next.js &middot; Supabase</div>
+        </a>
+
+        <a href="https://hrflow-two.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">07 / 08</div>
+          <div class="h-card-tag">HR-tech</div>
+          <div class="h-card-name">HRFlow</div>
+          <div class="h-card-desc">HR and internal communications platform covering attendance, leave tracking, role-based access control, and real-time team messaging.</div>
+          <div class="h-card-stack">Next.js &middot; RBAC</div>
+        </a>
+
+        <a href="https://slide-iq.vercel.app" target="_blank" rel="noopener" class="h-card">
+          <div class="h-card-index">08 / 08</div>
+          <div class="h-card-tag">Edtech / AI</div>
+          <div class="h-card-name">SlideIQ</div>
+          <div class="h-card-desc">AI quiz generator that turns any lecture file into a full exam. MCQ, theory questions, and personality-voiced feedback, entirely in the browser. 8 lecturer personalities, quiz history, and PDF/DOCX export.</div>
+          <div class="h-card-stack">React &middot; Vite &middot; Gemini AI &middot; Firebase &middot; WebGL</div>
+        </a>
+
+      </div>
+      <div class="h-progress-wrap" id="hProgressWrap"></div>
+    </div>
+  </div>
+
+  <!-- MOBILE PROJECTS (plain vertical list, base design) -->
+  <div class="m-projects-list">
+    <a href="https://pyupcheck.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">pyupcheck</div>
+        <div class="proj-tag">Dev tools</div>
+      </div>
+      <div class="proj-desc">CLI that tells you if upgrading a Python dependency will break your code, before you upgrade it. Scans your codebase for real usages, diffs changelogs between versions, and flags breaking or deprecated APIs, with CI-ready exit codes. Published on PyPI.</div>
+      <div class="proj-stack">Python &middot; Click &middot; Rich &middot; PyPI</div>
+    </a>
+
+    <a href="https://dermaflow-zeta.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">Dermaflow AI</div>
+        <div class="proj-tag">Healthtech</div>
+      </div>
+      <div class="proj-desc">AI skin health diagnostic platform with heatmap explainability, a Bio-LLM chatbot, and an oncology triage system. Built solo to address the cost barrier of dermatologist visits in Nigeria.</div>
+      <div class="proj-stack">Next.js &middot; Gemini AI &middot; Python</div>
+    </a>
+
+    <a href="https://echo-journal-app.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">EchoJournal</div>
+        <div class="proj-tag">AI Journal</div>
+      </div>
+      <div class="proj-desc">AI journaling app with voice transcription, Echo Mode pattern recognition across past entries, and mood sentiment tracking with visualisations.</div>
+      <div class="proj-stack">Next.js &middot; Firebase &middot; Gemini AI</div>
+    </a>
+
+    <a href="https://404lab.wasmer.app/" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">BizPadi</div>
+        <div class="proj-tag">AI / Fintech</div>
+      </div>
+      <div class="proj-desc">AI business companion that matches Nigerian SMEs to grants, loans, and support programmes (TEF, BOI, SMEDAN) entirely over WhatsApp.</div>
+      <div class="proj-stack">Next.js &middot; WhatsApp API &middot; Gemini AI</div>
+    </a>
+
+    <a href="https://verifyai-hr.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">VerifyAI</div>
+        <div class="proj-tag">HR-tech</div>
+      </div>
+      <div class="proj-desc">Payroll integrity platform that detects ghost workers before disbursement using Isolation Forest anomaly detection, with Squad API escrow. Built for SquadHacks 3.0.</div>
+      <div class="proj-stack">Python &middot; Isolation Forest ML &middot; Squad API</div>
+    </a>
+
+    <a href="https://tenda-delta.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">Tenda</div>
+        <div class="proj-tag">SME tools</div>
+      </div>
+      <div class="proj-desc">Customer retention platform for Nigerian merchants: tracks sales and lapsed customers, auto-generates WhatsApp follow-up prompts, and surfaces revenue trends.</div>
+      <div class="proj-stack">Next.js &middot; Supabase</div>
+    </a>
+
+    <a href="https://hrflow-two.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">HRFlow</div>
+        <div class="proj-tag">HR-tech</div>
+      </div>
+      <div class="proj-desc">HR and internal communications platform covering attendance, leave tracking, role-based access control, and real-time team messaging.</div>
+      <div class="proj-stack">Next.js &middot; RBAC</div>
+    </a>
+
+    <a href="https://slide-iq.vercel.app" target="_blank" rel="noopener" class="proj-item">
+      <div class="proj-head">
+        <div class="proj-name">SlideIQ</div>
+        <div class="proj-tag">Edtech / AI</div>
+      </div>
+      <div class="proj-desc">AI quiz generator that turns any lecture file into a full exam. MCQ, theory questions, and personality-voiced feedback, entirely in the browser. 8 lecturer personalities, quiz history, and PDF/DOCX export.</div>
+      <div class="proj-stack">React &middot; Vite &middot; Gemini AI &middot; Firebase &middot; WebGL</div>
+    </a>
+  </div>
+
+  <section id="projects-more" style="padding-top:32px">
+    <div class="more-projects">
+      <div class="more-projects-label">More projects</div>
+      <div class="more-row">
+        <a href="https://spendwise-app-snowy.vercel.app" target="_blank" rel="noopener">SpendWise</a>
+        <span class="more-stack">React &middot; Supabase &middot; Gemini AI</span>
+      </div>
+      <div class="more-row">
+        <a href="https://lamicompanion.vercel.app/" target="_blank" rel="noopener">Lami Companion</a>
+        <span class="more-stack">React &middot; Supabase &middot; Gemini AI</span>
+      </div>
+      
+      <div class="more-row">
+        <a href="https://monieflow-spark.vercel.app" target="_blank" rel="noopener">MonieFlow</a>
+        <span class="more-stack">Next.js &middot; Firebase &middot; Gemini AI</span>
+      </div>
+      <div class="more-row">
+        <span class="more-name-plain">DataFlix</span>
+        <span class="more-stack">Angular &middot; Supabase &middot; Gemini AI</span>
+      </div>
+      <div class="more-row">
+        <a href="https://trustbridge-ai.onrender.com/docs/" target="_blank" rel="noopener">TrustBridge AI</a>
+        <span class="more-stack">Python &middot; FastAPI &middot; Gemini AI</span>
+      </div>
+      <div class="more-row">
+        <a href="https://flashcard-app-navy-sigma.vercel.app" target="_blank" rel="noopener">Flashcard App</a>
+        <span class="more-stack">React &middot; KaTeX</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT WORK -->
+  <section id="client-work">
+    <h2 class="sec-title">Client work sample</h2>
+    <div class="client-item">
+      <div class="client-name"><a href="https://giftedhandssolutions.vercel.app" target="_blank" rel="noopener">Gifted Hands Educational Hub</a></div>
+      <div class="client-desc">Marketing site for a Nigerian study-abroad consultancy (UK/Canada admissions), built end-to-end as a freelance client project. Next.js.</div>
+    </div>
+    <div class="client-item">
+      <div class="client-name"><a href="https://emmyvisuals.vercel.app" target="_blank" rel="noopener">Emmy Visuals</a></div>
+      <div class="client-desc">Business site for a Lagos photography studio covering weddings, portraits, and corporate photography bookings. Next.js.</div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="sec-title">Skills</h2>
+    <div class="skills-block">
+      <div class="skills-label">Languages</div>
+      <div class="skills-line"><strong>Python, TypeScript, JavaScript, HTML, CSS (SCSS)</strong></div>
+    </div>
+    <div class="skills-block">
+      <div class="skills-label">Frameworks</div>
+      <div class="skills-line"><strong>React, Next.js, Angular, FastAPI, Django, Node.js, Express</strong></div>
+    </div>
+    <div class="skills-block">
+      <div class="skills-label">Databases &amp; cloud</div>
+      <div class="skills-line"><strong>Supabase, Firebase, PostgreSQL, MongoDB, AWS</strong></div>
+    </div>
+    <div class="skills-block">
+      <div class="skills-label">Tools</div>
+      <div class="skills-line"><strong>Git, Docker, Tailwind CSS, Vercel, Vite, REST APIs, Gemini AI</strong></div>
+    </div>
+    <div class="skills-block">
+      <div class="skills-label">Languages spoken</div>
+      <div class="skills-line">English (fluent), Yoruba (native)</div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2 class="sec-title">Education</h2>
+
+    <div class="edu-item">
+      <div class="edu-deg">B.Sc. Data Science</div>
+      <div class="edu-meta">University of Lagos (UNILAG) &middot; Sep 2024 – Jul 2028 (Expected)</div>
+      <div class="edu-desc">GPA: 4.09 / 5.0. Coursework: Statistical Analysis, Machine Learning, Linear Algebra, Data Structures, Numerical Methods, R Programming.</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-deg">HatchDev Software Engineering Track</div>
+      <div class="edu-meta">NITHUB, Lagos &middot; Jun 2026 – Dec 2026 (Expected)</div>
+      <div class="edu-desc">6-month software engineering training programme, undertaken ahead of an upcoming industry internship track.</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-deg">Certified Python Developer</div>
+      <div class="edu-meta">Datamites / IABAC, India (Remote) &middot; Nov 2023 – Mar 2024 &middot; License IAB1120173975</div>
+      <div class="edu-desc">Intensive Python, data science fundamentals, and applied machine learning coursework.</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="sec-title">Get in touch</h2>
+    <div class="prose" style="margin-bottom:24px">
+      <p>Open to full-time roles, freelance contracts, and interesting collaborations. I usually reply within 24 hours.</p>
+    </div>
+    <div class="contact-list">
+      <a href="mailto:abdullahioriola02@gmail.com" class="clink">
+        <span class="clink-k">Email</span>
+        <span class="clink-v">abdullahioriola02@gmail.com</span>
+      </a>
+      <a href="https://github.com/Astronomox" target="_blank" rel="noopener" class="clink">
+        <span class="clink-k">GitHub</span>
+        <span class="clink-v">github.com/Astronomox</span>
+      </a>
+      <a href="https://www.linkedin.com/in/abdullahioriola-63459b2a7" target="_blank" rel="noopener" class="clink">
+        <span class="clink-k">LinkedIn</span>
+        <span class="clink-v">abdullahioriola</span>
+      </a>
+      <a href="https://twitter.com/Astro2theworld" target="_blank" rel="noopener" class="clink">
+        <span class="clink-k">Twitter / X</span>
+        <span class="clink-v">@Astro2theworld</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>&copy; 2026 Abdullahi Oriola &middot; Oriola Abdullahi Adeola</span>
+    <span>Lagos, Nigeria</span>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  // Permanent dark theme
+  document.documentElement.setAttribute('data-theme','dark');
+  try{ localStorage.setItem('portfolio-theme','dark'); }catch(e){}
+})();
+
+(function(){
+  function toTop(e){
+    e.preventDefault();
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+  var home = document.getElementById('navHome');
+  var about = document.getElementById('navAbout');
+  if(home) home.addEventListener('click', toTop);
+  if(about) about.addEventListener('click', toTop);
+})();
+
+// Hero: name slides from left → scales to center on scroll
+(function(){
+  var scroll = document.getElementById('heroScroll');
+  var name   = document.getElementById('heroName');
+  var cube   = document.getElementById('heroCube');
+  var meta   = document.getElementById('heroMeta');
+  if(!scroll || !name) return;
+
+  var mobile = window.matchMedia('(max-width:760px)');
+  var W0=0, L0=0, F0=0;
+
+  function measure(){
+    // reset any inline overrides to read natural geometry
+    name.style.transform='none';
+    name.style.fontSize='';
+    var r = name.getBoundingClientRect();
+    W0 = r.width;
+    L0 = r.left;   // left edge in viewport at rest
+    F0 = parseFloat(window.getComputedStyle(name).fontSize);
+  }
+
+  function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
+  function ease(t){return t<0.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2;}
+
+  function frame(){
+    var top = scroll.getBoundingClientRect().top;
+    var runway = scroll.offsetHeight - window.innerHeight;
+    var p = clamp(-top / runway, 0, 1);
+    var e = ease(p);
+
+    var vw = window.innerWidth;
+    var maxScale = Math.min(1.9, (vw*0.82) / W0);   // don't overflow viewport
+    var scale = 1 + (maxScale - 1) * e;
+
+    // grow the actual font-size (crisp at every step) instead of CSS-scaling the box
+    name.style.fontSize = (F0 * scale) + 'px';
+
+    // keep the growing box centered horizontally (width tracks font-size ~linearly)
+    var tx = (vw/2) - L0 - (W0*scale)/2;
+    // on mobile the name also rises from low toward center as it grows
+    var riseY = mobile.matches ? (window.innerHeight * 0.18) * (1 - e) : 0;
+    name.style.transform = 'translateX(' + (tx*e) + 'px) translateY(' + riseY + 'px)';
+
+    var fade = clamp(1 - p*2.4, 0, 1);
+    var metaFade = clamp(1 - p*5, 0, 1);   // meta clears fast so it never collides with the rising name
+    if(p > 0.005){
+      if(cube) cube.style.setProperty('opacity', fade, 'important');
+      if(meta) meta.style.setProperty('opacity', metaFade, 'important');
+    } else {
+      // let the load-in animation play at rest
+      if(cube) cube.style.removeProperty('opacity');
+      if(meta) meta.style.removeProperty('opacity');
+    }
+
+    // parallax: cube drifts slower than the scroll
+    if(cube){
+      if(mobile.matches){
+        cube.style.transform = 'translate(-50%, calc(-50% + ' + (p*60) + 'px))';
+      } else {
+        cube.style.transform = 'translateY(calc(-50% + ' + (p*70) + 'px))';
+      }
+    }
+  }
+
+  function init(){ measure(); frame(); }
+  window.addEventListener('scroll', frame, {passive:true});
+  window.addEventListener('resize', init);
+  // re-measure after fonts/intro settle
+  window.addEventListener('load', function(){ setTimeout(init, 400); });
+  setTimeout(init, 200);
+})();
+
+// Horizontal pinned project gallery — vertical scroll drives horizontal pan
+(function(){
+  var outer  = document.getElementById('hProjectsOuter');
+  var sticky = document.getElementById('hProjectsSticky');
+  var track  = document.getElementById('hProjectsTrack');
+  var dots   = document.getElementById('hProgressWrap');
+  if(!outer || !sticky || !track) return;
+
+  var mobile = window.matchMedia('(max-width:760px)');
+  var maxScroll = 0;
+  var cards = track.querySelectorAll('.h-card');
+
+  // build dot indicators
+  if(dots){
+    cards.forEach(function(_, i){
+      var d = document.createElement('div');
+      d.className = 'h-progress-dot' + (i === 0 ? ' active' : '');
+      dots.appendChild(d);
+    });
+  }
+  var dotEls = dots ? dots.querySelectorAll('.h-progress-dot') : [];
+
+  function measure(){
+    var trackW = track.scrollWidth;
+    var viewW  = sticky.clientWidth;
+    maxScroll  = Math.max(0, trackW - viewW);
+    outer.style.height = (maxScroll + window.innerHeight) + 'px';
+  }
+
+  function clamp(v,a,b){ return Math.max(a, Math.min(b, v)); }
+
+  function frame(){
+    if(maxScroll <= 0) return;
+    var top = outer.getBoundingClientRect().top;
+    var p = clamp(-top / maxScroll, 0, 1);
+    track.style.transform = 'translateX(' + (-p * maxScroll) + 'px)';
+
+    if(dotEls.length){
+      var active = Math.round(p * (dotEls.length - 1));
+      dotEls.forEach(function(d, i){
+        d.classList.toggle('active', i === active);
+      });
+    }
+  }
+
+  window.addEventListener('scroll', frame, {passive:true});
+  window.addEventListener('resize', function(){ measure(); frame(); });
+  window.addEventListener('load', function(){ setTimeout(function(){ measure(); frame(); }, 400); });
+  setTimeout(function(){ measure(); frame(); }, 200);
+})();
+
+// Scroll reveals + stagger — brings the page to life below the hero
+(function(){
+  var sel = '.sec-title, .exp-item, .proj-item, .more-row, .client-item, .skills-block, .edu-item, .clink, #about .prose p, .foot';
+  var targets = document.querySelectorAll(sel);
+  targets.forEach(function(el){ el.classList.add('reveal'); });
+
+  // stagger items within their container
+  var groups = ['#experience','#projects','.more-projects','#client-work','#skills','#education','.contact-list','.prose'];
+  document.querySelectorAll(groups.join(',')).forEach(function(g){
+    g.querySelectorAll('.reveal').forEach(function(el,i){
+      el.style.transitionDelay = Math.min(i*0.07, 0.42) + 's';
+    });
+  });
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!('IntersectionObserver' in window) || reduce){
+    targets.forEach(function(el){ el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, {threshold:0.12, rootMargin:'0px 0px -6% 0px'});
+  targets.forEach(function(el){ io.observe(el); });
+})();
+
+// Scroll progress bar
+(function(){
+  var bar = document.getElementById('scrollProgress');
+  if(!bar) return;
+  function update(){
+    var doc = document.documentElement;
+    var max = doc.scrollHeight - window.innerHeight;
+    var p = max > 0 ? (window.scrollY / max) : 0;
+    bar.style.width = (p*100).toFixed(2) + '%';
+  }
+  window.addEventListener('scroll', update, {passive:true});
+  window.addEventListener('resize', update);
+  update();
+})();
+
+// Nav: hide on scroll down, show on scroll up
+(function(){
+  var nav = document.querySelector('.nav');
+  if(!nav) return;
+  var lastY = window.scrollY, ticking = false;
+
+  function update(){
+    var y = window.scrollY;
+    if(y > lastY && y > 80){ nav.classList.add('nav-hidden'); }
+    else{ nav.classList.remove('nav-hidden'); }
+    lastY = y;
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){
+    if(!ticking){ requestAnimationFrame(update); ticking = true; }
+  }, {passive:true});
+})();
+
+// Smooth scroll (Lenis) — the Locomotive signature
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if(typeof window.Lenis !== 'function') return;   // CDN not loaded → native scroll
+  var lenis = new window.Lenis({ lerp:0.09, wheelMultiplier:1 });
+  window.__lenis = lenis; // exposed so the lightbox can pause/resume it
+  function raf(t){ lenis.raf(t); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+})();
+
+// Headshot lightbox — click any headshot to view fullscreen
+(function(){
+  var overlay = document.getElementById('lightbox');
+  var lbImg   = document.getElementById('lightboxImg');
+  var closeBtn = document.getElementById('lightboxClose');
+  if(!overlay || !lbImg || !closeBtn) return;
+
+  var triggers = document.querySelectorAll('img[src="headshot.png"]');
+  if(!triggers.length) return;
+
+  var savedScrollY = 0;
+  var lastFocused = null;
+  var isOpen = false;
+
+  triggers.forEach(function(img){
+    img.setAttribute('tabindex', '0');
+    img.setAttribute('role', 'button');
+    if(!img.hasAttribute('aria-label')) img.setAttribute('aria-label', 'View photo fullscreen');
+    img.addEventListener('click', function(){ open(img); });
+    img.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar'){
+        e.preventDefault();
+        open(img);
+      }
+    });
+  });
+
+  function open(img){
+    if(isOpen) return;
+    isOpen = true;
+    lastFocused = document.activeElement;
+
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt || 'Abdullahi Oriola';
+
+    // scroll lock: fixed-position technique — blocks wheel, touch, and
+    // keyboard-driven scroll uniformly, and avoids iOS Safari background scroll
+    savedScrollY = window.scrollY || window.pageYOffset || 0;
+    document.documentElement.classList.add('lb-lock');
+    document.body.classList.add('lb-lock');
+    document.body.style.top = (-savedScrollY) + 'px';
+
+    if(window.__lenis && typeof window.__lenis.stop === 'function') window.__lenis.stop();
+
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.addEventListener('keydown', onKeydown);
+    closeBtn.focus();
+  }
+
+  function close(){
+    if(!isOpen) return;
+    isOpen = false;
+
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+
+    document.documentElement.classList.remove('lb-lock');
+    document.body.classList.remove('lb-lock');
+    document.body.style.top = '';
+    window.scrollTo(0, savedScrollY);
+
+    if(window.__lenis && typeof window.__lenis.start === 'function') window.__lenis.start();
+
+    document.removeEventListener('keydown', onKeydown);
+    if(lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+  }
+
+  function onKeydown(e){
+    if(e.key === 'Escape') close();
+  }
+
+  closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', function(e){
+    if(e.target === overlay) close(); // backdrop only, not the image
+  });
+})();
+</script>
+
+<script>
+// Project card tilt (added)
+(function(){
+  if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  document.querySelectorAll('.h-card').forEach(function(card){
+    card.addEventListener('mousemove', function(e){
+      var r = card.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width - 0.5;
+      var py = (e.clientY - r.top) / r.height - 0.5;
+      card.classList.remove('tilt-reset');
+      card.style.setProperty('--ry', (px * 9).toFixed(2) + 'deg');
+      card.style.setProperty('--rx', (-py * 9).toFixed(2) + 'deg');
+    });
+    card.addEventListener('mouseleave', function(){
+      card.classList.add('tilt-reset');
+      card.style.setProperty('--rx', '0deg');
+      card.style.setProperty('--ry', '0deg');
+    });
+  });
+})();
+</script>
+
+<script>
+// Ground cracking on tap, hero only (added)
+(function(){
+  if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  var cv = document.getElementById('crackCanvas');
+  if(!cv) return;
+  var ctx = cv.getContext('2d');
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var W = 0, H = 0;
+
+  function resize(){
+    W = window.innerWidth; H = window.innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr;
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  var cracks = [], debris = [], running = false;
+  var SPEED = 0.34;          // px per ms the fissure travels
+  var HOLD = 2300, FADE = 1300;
+  var MAX_CRACKS = 36;
+
+  function rnd(a,b){ return a + Math.random()*(b-a); }
+
+  // grow one jagged branch, forking occasionally
+  function branch(segs, x, y, ang, len, depth, delay, width){
+    var travelled = 0, t = delay;
+    while(travelled < len){
+      var step = rnd(9, 17);
+      ang += rnd(-0.55, 0.55);
+      var nx = x + Math.cos(ang) * step;
+      var ny = y + Math.sin(ang) * step;
+      segs.push({x1:x, y1:y, x2:nx, y2:ny, t:t, w:width, d:false});
+      t += step / SPEED;
+      travelled += step;
+      x = nx; y = ny;
+      if(depth < 3 && Math.random() < 0.13){
+        branch(segs, x, y, ang + (Math.random() < 0.5 ? -1 : 1) * rnd(0.5, 1.0),
+               (len - travelled) * rnd(0.45, 0.8), depth + 1, t, width * 0.7);
+      }
+      width *= 0.97;
+    }
+  }
+
+  function spawn(x, y, big){
+    if(cracks.length >= MAX_CRACKS) cracks.shift();
+    var segs = [];
+    var arms = big ? 8 : Math.floor(rnd(3, 6));
+    var base = Math.random() * Math.PI * 2;
+    for(var i = 0; i < arms; i++){
+      var a = base + (i / arms) * Math.PI * 2 + rnd(-0.35, 0.35);
+      branch(segs, x, y, a, big ? rnd(140, 260) : rnd(60, 130), 0, 0, big ? 1.8 : 1.3);
+    }
+    cracks.push({born: performance.now(), segs: segs, seen: 0});
+    kick();
+  }
+
+  function addDebris(x, y){
+    debris.push({
+      x:x, y:y,
+      vx:rnd(-0.05, 0.05), vy:rnd(-0.02, 0.03),
+      r:rnd(0, 6.28), vr:rnd(-0.006, 0.006),
+      s:rnd(1.5, 4.2), born:performance.now(), life:rnd(900, 1700)
+    });
+  }
+
+  function draw(now){
+    ctx.clearRect(0, 0, W, H);
+    var alive = false;
+
+    for(var c = cracks.length - 1; c >= 0; c--){
+      var k = cracks[c];
+      var age = now - k.born;
+      var a = age < HOLD ? 1 : 1 - (age - HOLD) / FADE;
+      if(a <= 0){ cracks.splice(c, 1); continue; }
+      alive = true;
+
+      ctx.lineCap = 'round';
+      // dark fissure edge, then a thin light chip line on top
+      for(var pass = 0; pass < 2; pass++){
+        ctx.beginPath();
+        for(var i = 0; i < k.segs.length; i++){
+          var sg = k.segs[i];
+          if(sg.t > age) continue;
+          if(pass === 0 && !sg.d){
+            sg.d = true;
+            if(Math.random() < 0.28){ addDebris(sg.x2, sg.y2); }
+          }
+          ctx.moveTo(sg.x1, sg.y1);
+          ctx.lineTo(sg.x2, sg.y2);
+        }
+        if(pass === 0){
+          ctx.strokeStyle = 'rgba(40,40,38,' + (0.9 * a).toFixed(3) + ')';
+          ctx.lineWidth = 3.2;
+        } else {
+          ctx.strokeStyle = 'rgba(237,237,235,' + (0.42 * a).toFixed(3) + ')';
+          ctx.lineWidth = 1;
+        }
+        ctx.stroke();
+      }
+    }
+
+    // crumbling fragments
+    var dt = 16;
+    for(var d = debris.length - 1; d >= 0; d--){
+      var p = debris[d];
+      var pa = (now - p.born) / p.life;
+      if(pa >= 1){ debris.splice(d, 1); continue; }
+      alive = true;
+      p.vy += 0.0011 * dt;
+      p.x += p.vx * dt; p.y += p.vy * dt; p.r += p.vr * dt;
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.r);
+      ctx.fillStyle = 'rgba(200,200,196,' + (0.55 * (1 - pa)).toFixed(3) + ')';
+      ctx.beginPath();
+      ctx.moveTo(-p.s, -p.s * 0.6);
+      ctx.lineTo(p.s, -p.s * 0.2);
+      ctx.lineTo(p.s * 0.3, p.s);
+      ctx.closePath();
+      ctx.fill();
+      ctx.restore();
+    }
+
+    if(alive){ requestAnimationFrame(draw); } else { running = false; }
+  }
+
+  function kick(){
+    if(!running){ running = true; requestAnimationFrame(draw); }
+  }
+
+  // tap-only, first page (hero) only
+  var heroEl = document.getElementById('heroScroll');
+  var hint = document.getElementById('tapHint');
+  var tapped = false;
+
+  function inHero(){
+    return heroEl && heroEl.getBoundingClientRect().bottom > 0;
+  }
+  function hideHint(){
+    if(hint) hint.classList.add('gone');
+  }
+
+  window.addEventListener('mousedown', function(e){
+    if(!inHero()) return;
+    if(e.target.closest && e.target.closest('a, button, input, textarea, .lightbox')) return;
+    tapped = true;
+    hideHint();
+    spawn(e.clientX, e.clientY, true);
+  }, {passive:true});
+
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 80) hideHint();
+    if(!inHero() && (cracks.length || debris.length)){
+      cracks.length = 0; debris.length = 0;
+      ctx.clearRect(0, 0, W, H);
+    }
+  }, {passive:true});
+})();
+</script>
+
+<!-- HEADSHOT LIGHTBOX (single reusable overlay, appended at top level so it
+     always stacks above everything regardless of transforms elsewhere) -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo of Abdullahi Oriola" aria-hidden="true">
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img src="" alt="" class="lightbox-img" id="lightboxImg">
+</div>
+
+</body>
+
+</html>
